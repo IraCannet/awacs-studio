@@ -2,6 +2,7 @@ body {
   background-color: #000;
 }
 section {
+  margin: 150px 0;
   font-family: AkzidenzGroteskBQ-Light;
   min-width: 900px;
 }
@@ -14,6 +15,7 @@ h1 {
 h4 {
   font-size: 15px;
   color: #707070;
+  text-align: center;
 }
 p {
   text-align: center;
@@ -24,7 +26,6 @@ img {
   display: block;
   margin: 0 auto;
 }
-
 .small-logo {
   width: 60px;
 }
@@ -32,7 +33,7 @@ img {
 .col-6 {
   padding-right: 80px;
   padding-left: 85px;
-  margin: 30px 0;
+  margin: 90px 0;
 }
 .signature {
   text-align: end;
