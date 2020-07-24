@@ -3,6 +3,7 @@ body {
 }
 section {
   font-family: AkzidenzGroteskBQ-Light;
+  min-width: 900px;
 }
 h1 {
   font-size: 70px;
