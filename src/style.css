@@ -1,14 +1,38 @@
 body {
   background-color: #000;
 }
+section {
+  font-family: AkzidenzGroteskBQ-Light;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-family: Airborne;
+  color: #707070;
+}
+h4 {
+  font-size: 15px;
+  color: #707070;
+}
+p {
+  text-align: center;
+  color: #707070;
+}
 img {
   width: 300px;
   display: block;
   margin: 0 auto;
 }
-p {
-  font-family: Akzidenz;
-}
+
 .small-logo {
   width: 60px;
+}
+
+.col-6 {
+  padding-right: 80px;
+  padding-left: 85px;
+  margin: 30px 0;
+}
+.signature {
+  text-align: end;
 }
