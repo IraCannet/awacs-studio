@@ -22,10 +22,18 @@ p {
   color: #707070;
 }
 img {
-  width: 300px;
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
+hr {
+  background-color: #707070;
+  height: 8px;
+  margin: 0 auto;
+  margin-bottom: -12px;
+  width: 88%;
+}
+
 .small-logo {
   width: 60px;
 }
