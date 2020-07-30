@@ -4,7 +4,8 @@ body {
 section {
   margin: 150px 0;
   font-family: AkzidenzGroteskBQ-Light;
-  min-width: 900px;
+  min-width: 1000px;
+  min-height: 1000px;
 }
 h1 {
   font-size: 70px;
