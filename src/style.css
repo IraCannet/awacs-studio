@@ -11,6 +11,7 @@ h1 {
   text-align: center;
   font-family: Airborne;
   color: #707070;
+  margin-bottom: -12px;
 }
 h4 {
   font-size: 15px;
@@ -30,7 +31,7 @@ hr {
   background-color: #707070;
   height: 8px;
   margin: 0 auto;
-  margin-bottom: -12px;
+  margin-bottom: 2px;
   width: 88%;
 }
 
