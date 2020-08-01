@@ -13,7 +13,13 @@ h1 {
   font-family: Airborne;
   color: #707070;
   margin-bottom: -12px;
+  transition: all 0.3s ease-in-out;
 }
+h1:hover {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
 h4 {
   font-size: 15px;
   color: #707070;
@@ -33,7 +39,7 @@ hr {
   height: 8px;
   margin: 0 auto;
   margin-bottom: 2px;
-  width: 88%;
+  width: 222px;
 }
 
 .small-logo {
