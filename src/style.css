@@ -5,7 +5,7 @@ section {
   margin: 150px 0;
   font-family: AkzidenzGroteskBQ-Light;
   min-width: 1000px;
-  min-height: 1000px;
+  min-height: 500px;
 }
 h1 {
   font-size: 70px;
@@ -17,7 +17,23 @@ h1 {
 }
 h1:hover {
   transition: all 0.3s ease-in-out;
-  color: #fff;
+  color: #939393;
+}
+h1::first-letter {
+  color: #939393;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 h4 {
@@ -25,6 +41,7 @@ h4 {
   color: #707070;
   text-align: center;
 }
+
 p {
   text-align: center;
   color: #707070;
