@@ -1,6 +1,6 @@
 function changeLogo(event) {
   event.preventDefault();
-  event.target.innerHTML = "VWACS";
+  event.target.innerHTML = "V W A C S";
 }
 
 let followLink = document.querySelector("#main-logo");
