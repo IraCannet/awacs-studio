@@ -2,7 +2,7 @@ body {
   background-color: #000;
 }
 section {
-  margin: 150px 0;
+  margin: 10px 0;
   font-family: AkzidenzGroteskBQ-Light;
   min-width: 1000px;
   min-height: 500px;
@@ -18,22 +18,17 @@ h1 {
 h1:hover {
   transition: all 0.3s ease-in-out;
   color: #939393;
+  cursor: pointer;
 }
 h1::first-letter {
-  color: #939393;
   animation-name: spin;
-  animation-duration: 5000ms;
+  animation-duration: 55000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.adresses {
+  margin-top: -120px;
 }
 
 h4 {
@@ -63,11 +58,11 @@ hr {
   width: 60px;
 }
 
-.col-6 {
-  padding-right: 80px;
-  padding-left: 85px;
-  margin: 90px 0;
-}
 .signature {
   text-align: end;
+}
+
+#footer-photo {
+  width: 55%;
+  border-radius: 50%;
 }
