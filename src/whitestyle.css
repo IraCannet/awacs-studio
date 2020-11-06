@@ -1,0 +1,68 @@
+body {
+  background-color: #ffffff;
+}
+section {
+  margin: 10px 0;
+  font-family: AkzidenzGroteskBQ-Light;
+  min-width: 1000px;
+  min-height: 500px;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-family: Airborne;
+  color: #000000;
+  margin-bottom: -12px;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-logo {
+  width: 220px;
+  margin: 0 auto;
+}
+
+h1:hover {
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+  cursor: pointer;
+}
+h1::first-letter {
+  animation-name: spin;
+  animation-duration: 55000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.adresses {
+  margin-top: -120px;
+}
+
+h4 {
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #000000;
+}
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+hr {
+  background-color: #000000;
+  margin: 0 auto;
+  height: 8px;
+  width: 98%;
+}
+
+.small-logo {
+  width: 60px;
+}
+
+.signature {
+  text-align: end;
+}
