@@ -201,6 +201,11 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#main-logo {
+  max-width: 50%;
+}
+
 .w-icon-slider-right:before {
   content: "\e600";
 }
@@ -2925,10 +2930,13 @@ figcaption {
 
 .image {
   overflow: visible;
-  margin-bottom: -145px;
-  padding-bottom: 0px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 70px;
+  padding-top: 10px;
   -o-object-fit: fill;
   object-fit: fill;
+  max-width: 50%;
 }
 
 .heading {
@@ -3531,10 +3539,10 @@ figcaption {
 }
 
 #w-node-8f65c72d8fd1-202b5366 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
   -ms-grid-column-span: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
