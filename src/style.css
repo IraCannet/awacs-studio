@@ -1,16 +1,24 @@
 body {
   background-color: #000;
 }
+@font-face {
+  font-family: "akzidenz";
+  src: url(fonts/AkzidenzGroteskBQ-Light.otf) format("truetype");
+}
+@font-face {
+  font-family: "airborne";
+  src: url(fonts/airborne.ttf) format("truetype");
+}
 section {
   margin: 10px 0;
-  font-family: AkzidenzGroteskBQ-Light;
+  font-family: "akzidenz", Verdana, Tahoma;
   min-width: 1000px;
   min-height: 500px;
 }
 h1 {
-  font-size: 70px;
+  font-size: 90px;
   text-align: center;
-  font-family: Airborne;
+  font-family: "airborne", erdana, Tahoma;
   color: #707070;
   margin-bottom: -12px;
   transition: all 0.3s ease-in-out;
@@ -51,15 +59,19 @@ hr {
   height: 8px;
   margin: 0 auto;
   margin-bottom: 2px;
-  width: 330px;
+  width: 294px;
 }
 
 .small-logo {
   width: 60px;
 }
 
+#vwacs-logo {
+  margin: 70px;
+}
+
 .signature {
-  text-align: end;
+  text-align: left;
 }
 
 #footer-photo {
