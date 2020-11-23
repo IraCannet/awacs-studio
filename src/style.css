@@ -3,14 +3,22 @@ body {
 }
 section {
   margin: 10px 0;
-  font-family: AkzidenzGroteskBQ-Light;
+  /*font-family: AkzidenzGroteskBQ-Light;*/
   min-width: 1000px;
   min-height: 500px;
+}
+
+@font-face {
+  font-family: "airborne";
+  src: url(fonts/airborne.ttf) format("truetype");
+}
+p.customfont {
+  font-family: "airborne", Verdana, Tahoma;
 }
 h1 {
   font-size: 70px;
   text-align: center;
-  font-family: Airborne;
+  /*font-family: Airborne;*/
   color: #707070;
   margin-bottom: -12px;
   transition: all 0.3s ease-in-out;
