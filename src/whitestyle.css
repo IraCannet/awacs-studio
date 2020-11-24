@@ -7,22 +7,17 @@ section {
   min-width: 1000px;
   min-height: 500px;
 }
+#main-logo {
+  margin: 0 auto;
+}
 h1 {
   font-size: 90px;
   text-align: center;
   font-family: Airborne;
   color: #000000;
   margin-bottom: -12px;
-  transition: all 0.3s ease-in-out;
 }
-
-#main-logo {
-  margin: 0 auto;
-}
-
 h1:hover {
-  transition: all 0.3s ease-in-out;
-  color: #000000;
   cursor: pointer;
 }
 h1::first-letter {
@@ -31,7 +26,15 @@ h1::first-letter {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 h4 {
   font-size: 18px;
   color: #000000;
@@ -41,12 +44,20 @@ h4 {
 p {
   text-align: center;
   color: #000000;
+  margin-bottom: -3px;
 }
 img {
   max-width: 80%;
+  opacity: 0.5;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
+}
+img:hover {
+  opacity: 1;
+  transition: all 0.7s ease-in-out;
+  color: #000000;
+  cursor: pointer;
 }
 hr {
   background-color: #000000;
