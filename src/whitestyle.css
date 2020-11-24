@@ -8,7 +8,7 @@ section {
   min-height: 500px;
 }
 h1 {
-  font-size: 70px;
+  font-size: 90px;
   text-align: center;
   font-family: Airborne;
   color: #000000;
@@ -17,7 +17,6 @@ h1 {
 }
 
 #main-logo {
-  width: 220px;
   margin: 0 auto;
 }
 
@@ -34,7 +33,7 @@ h1::first-letter {
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: center;
 }
@@ -44,17 +43,23 @@ p {
   color: #000000;
 }
 img {
-  max-width: 90%;
+  max-width: 80%;
   display: block;
   margin: 0 auto;
+  border-radius: 5px;
 }
 hr {
   background-color: #000000;
   margin: 0 auto;
   height: 8px;
-  width: 98%;
+  width: 294px;
+  margin-bottom: 2px;
 }
 
+.row {
+  margin-right: -40px;
+  margin-left: -40px;
+}
 .small-logo {
   width: 60px;
 }
