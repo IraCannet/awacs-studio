@@ -33,10 +33,6 @@ h1::first-letter {
   animation-timing-function: linear;
 }
 
-.adresses {
-  margin-top: -120px;
-}
-
 h4 {
   font-size: 15px;
   color: #000000;
@@ -48,7 +44,7 @@ p {
   color: #000000;
 }
 img {
-  width: 200px;
+  max-width: 90%;
   display: block;
   margin: 0 auto;
 }
