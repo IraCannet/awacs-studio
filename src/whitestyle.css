@@ -16,6 +16,7 @@ h1 {
   font-family: Airborne;
   color: #000000;
   margin-bottom: -12px;
+  transition: opacity 1s ease;
 }
 h1:hover {
   cursor: pointer;
@@ -64,6 +65,7 @@ hr {
   height: 8px;
   width: 294px;
   margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 .row {
